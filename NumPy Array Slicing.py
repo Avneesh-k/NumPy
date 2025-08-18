@@ -11,12 +11,10 @@ print(arr[:3])
 print(arr[-3:-1])
 
 # Use the step value to determine the step of the slicing:
-
 print(arr[1:5:2])
 
 # Return every other element from the entire array:
 print(arr[::2])
-
 
 # Slicing 2-D Arrays
 arr = np.array([[1,2,3,4,5],[6,7,8,9,10]])
